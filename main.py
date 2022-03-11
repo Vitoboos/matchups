@@ -43,7 +43,7 @@ dropdown_menu = tkinter.OptionMenu(your_lane, dropdown_placeholder, *choose_lane
 
 # Radio buttons
 
-diff = IntVar('')
+diff = IntVar(value=0)
 result = StringVar(value='W')
 
 Diff1 = Radiobutton(match_data, value=1, variable=diff, text='1', command= lambda:select_diff(diff))
